@@ -1,15 +1,15 @@
 Um stack com **Vue.js no frontend** e **FastAPI no backend** é uma combinação extremamente poderosa quando a meta é **alta performance**, tanto em tempo de resposta quanto em produtividade do time. E converter muitos arquivos em um curto período de tempo é muito útil, pois ajudará bastante na agilidade da equipe em fazer projetos eficientes.
 
-## 🌐 Estrutura geral da aplicação
-
+Estrutura geral da aplicação:
 * **Frontend (Vue.js)**: SPA (Single Page Application) reativa, com rotas no cliente, componentes reutilizáveis e integração via Axios ou Fetch para consumir as APIs.
 * **Backend (FastAPI)**: expõe endpoints REST ou GraphQL, com tipagem forte (pydantic), validação automática, suporte nativo a WebSockets e performance comparável ao Node.js graças ao Starlette + Uvicorn.
 * **Banco de Dados**: pode ser SQL (PostgreSQL, MySQL) via SQLAlchemy/Tortoise ORM ou NoSQL (MongoDB, Redis).
 * **Deploy**: Docker + Kubernetes, com escalabilidade horizontal (FastAPI é ótimo para rodar em workers assíncronos).
 
-## 🚀 Casos de uso de alta performance
+## Casos de uso de alta performance
+<img width="452" height="669" alt="Captura de tela 2025-10-31 110519" src="https://github.com/user-attachments/assets/6fbe6335-447e-44bf-a00c-506c1718c344" />
 
-1. **Plataformas em tempo real**
+1. **Plataformas em tempo real** 🚀
 
    * **Exemplo**: dashboards de monitoramento, chats, multiplayer games, trading de ações, telemedicina.
    * **Por quê?** FastAPI suporta **WebSockets** e tarefas assíncronas (via asyncio, Celery ou Redis), enquanto Vue.js pode atualizar a UI em tempo real com Vuex/Pinia.
@@ -45,5 +45,3 @@ Um stack com **Vue.js no frontend** e **FastAPI no backend** é uma combinação
 * **Vue.js**: leve, rápido de renderizar, curva de aprendizado menor que Angular/React.
 * **Integração**: comunicação limpa via JSON, usando Axios/fetch ou GraphQL.
 * **Escalabilidade**: cada parte pode escalar de forma independente (micro frontends com Vue, microsserviços com FastAPI).
-
-Isso já seria um modelo que pode crescer para qualquer um desses casos de uso que citei. Quer que eu faça esse esqueleto para você?
