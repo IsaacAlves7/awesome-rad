@@ -11,7 +11,8 @@ Estrutura geral da aplicação:
 * **Banco de Dados**: pode ser SQL (PostgreSQL, MySQL) via SQLAlchemy/Tortoise ORM ou NoSQL (MongoDB, Redis).
 * **Deploy**: Docker + Kubernetes, com escalabilidade horizontal (FastAPI é ótimo para rodar em workers assíncronos).
 
-## Casos de uso de alta performance
+Casos de uso de alta performance:
+
 <img width="452" height="669" alt="Captura de tela 2025-10-31 110519" src="https://github.com/user-attachments/assets/6fbe6335-447e-44bf-a00c-506c1718c344" />
 
 1. **Plataformas em tempo real** 🚀
