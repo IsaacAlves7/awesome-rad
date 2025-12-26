@@ -1,5 +1,10 @@
 Um stack com **Vue.js no frontend** e **FastAPI no backend** é uma combinação extremamente poderosa quando a meta é **alta performance**, tanto em tempo de resposta quanto em produtividade do time. E converter muitos arquivos em um curto período de tempo é muito útil, pois ajudará bastante na agilidade da equipe em fazer projetos eficientes.
 
+* **FastAPI**: assíncrono por padrão, validação automática, escalabilidade, ideal para APIs críticas em baixa latência.
+* **Vue.js**: leve, rápido de renderizar, curva de aprendizado menor que Angular/React.
+* **Integração**: comunicação limpa via JSON, usando Axios/fetch ou GraphQL.
+* **Escalabilidade**: cada parte pode escalar de forma independente (micro frontends com Vue, microsserviços com FastAPI).
+
 Estrutura geral da aplicação:
 * **Frontend (Vue.js)**: SPA (Single Page Application) reativa, com rotas no cliente, componentes reutilizáveis e integração via Axios ou Fetch para consumir as APIs.
 * **Backend (FastAPI)**: expõe endpoints REST ou GraphQL, com tipagem forte (pydantic), validação automática, suporte nativo a WebSockets e performance comparável ao Node.js graças ao Starlette + Uvicorn.
@@ -38,10 +43,3 @@ Estrutura geral da aplicação:
 
    * **Exemplo**: dashboards que coletam métricas de sensores ou logs de sistemas em tempo real.
    * **Por quê?** FastAPI processa milhões de eventos concorrentes, e Vue.js mostra os dados em gráficos reativos (via D3.js, Chart.js, ECharts).
-
-## ⚡ Pontos fortes para alta performance
-
-* **FastAPI**: assíncrono por padrão, validação automática, escalabilidade, ideal para APIs críticas em baixa latência.
-* **Vue.js**: leve, rápido de renderizar, curva de aprendizado menor que Angular/React.
-* **Integração**: comunicação limpa via JSON, usando Axios/fetch ou GraphQL.
-* **Escalabilidade**: cada parte pode escalar de forma independente (micro frontends com Vue, microsserviços com FastAPI).
