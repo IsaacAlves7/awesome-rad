@@ -1,5 +1,7 @@
 Um stack com **Vue.js no frontend** e **FastAPI no backend** é uma combinação extremamente poderosa quando a meta é **alta performance**, tanto em tempo de resposta quanto em produtividade do time. E converter muitos arquivos em um curto período de tempo é muito útil, pois ajudará bastante na agilidade da equipe em fazer projetos eficientes.
 
+<img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" height="77" align="right">
+
 * **FastAPI**: assíncrono por padrão, validação automática, escalabilidade, ideal para APIs críticas em baixa latência.
 * **Vue.js**: leve, rápido de renderizar, curva de aprendizado menor que Angular/React.
 * **Integração**: comunicação limpa via JSON, usando Axios/fetch ou GraphQL.
