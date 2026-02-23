@@ -15,7 +15,12 @@ Estrutura geral da aplicação:
 
 Casos de uso de alta performance:
 
-<img width="452" height="669" alt="Captura de tela 2025-10-31 110519" src="https://github.com/user-attachments/assets/6fbe6335-447e-44bf-a00c-506c1718c344" />
+<table>
+  <tr>
+    <td><img width="452" height="669" alt="Captura de tela 2025-10-31 110519" src="https://github.com/user-attachments/assets/6fbe6335-447e-44bf-a00c-506c1718c344" /></td>
+    <td><img src="https://github.com/user-attachments/assets/a92f4e21-c43c-49b9-a61d-b4df22397ed0"></td>
+  </tr>
+</table>
 
 1. **Plataformas em tempo real** 🚀
 
