@@ -22,6 +22,24 @@ Casos de uso de alta performance:
   </tr>
 </table>
 
+Confira estas 8 dicas para melhorar o desempenho do frontend:
+
+- **Compression**: Comprima arquivos e minimize o tamanho dos dados antes da transmissão para reduzir a carga da rede.
+
+- **Selective Rendering/Windowing** - Exibe apenas elementos visíveis para otimizar o desempenho da renderização. Por exemplo, em uma lista dinâmica, apenas renderize itens visíveis.
+
+- **Modular Architecture with Code Splitting** - um pacote de aplicações maior em vários pacotes menores para carregamento eficiente.
+
+- **Priority-Based Loading** - Priorize recursos essenciais e conteúdos visíveis (ou acima da dobra) para uma melhor experiência do usuário.
+
+- **Pre-loading** os recursos do Fetch com antecedência antes de serem solicitados para melhorar a velocidade de carregamento.
+
+- **Tree Shaking or Dead Code Removal** - Otimize o pacote JS final removendo código morto que nunca será usado.
+
+- **Pre-fetching** ou cachear proativamente recursos que provavelmente serão necessários em breve.
+
+- **Dynamic Imports** - Carreguem módulos de código dinamicamente baseados nas ações do usuário para otimizar os tempos iniciais de carregamento.
+
 1. **Plataformas em tempo real** 🚀
 
    * **Exemplo**: dashboards de monitoramento, chats, multiplayer games, trading de ações, telemedicina.
