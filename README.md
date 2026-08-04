@@ -1,6 +1,7 @@
 > Versículo chave: "Consagre ao Senhor tudo o que você faz, e os seus planos serão bem-sucedidos." - Provérbios 16:3
- 
-Esse repositório une os melhores dos mundos, com alta performance em aplicações web e consumo de APIs + Deploy rápido passando pelos testes com CI/CD Pipeline.
+
+# 🏃🏾💨 awesome-rad
+Esse repositório une os melhores dos mundos, com alta performance em aplicações web e consumo de APIs + Deploy rápido passando pelos testes com CI/CD Pipeline com o ciclo de desenvolvimento RAD - Rapid Application Development.
 
 Um stack com **Vue.js no frontend** e **FastAPI no backend** é uma combinação extremamente poderosa quando a meta é **alta performance**, tanto em tempo de resposta quanto em produtividade do time. E converter muitos arquivos em um curto período de tempo é muito útil, pois ajudará bastante na agilidade da equipe em fazer projetos eficientes.
 
@@ -73,8 +74,7 @@ Confira estas 8 dicas para melhorar o desempenho do frontend:
    * **Por quê?** FastAPI processa milhões de eventos concorrentes, e Vue.js mostra os dados em gráficos reativos (via D3.js, Chart.js, ECharts).
 
 # PokeVue — SSG/ISR com CDN (Vue/Nuxt + FastAPI)
-
-Réplica funcional do conceito da imagem (PokeNext, em Next.js), mas com **Vue.js (via Nuxt 3)** no front e **FastAPI** no back.
+Exemplo: Réplica funcional do conceito da imagem (PokeNext, em Next.js), mas com **Vue.js (via Nuxt 3)** no front e **FastAPI** no back.
 
 Arquitetura:
 
@@ -99,9 +99,9 @@ Usuário → CDN (edge) → Nuxt Server (Nitro) → FastAPI (BFF) → PokeAPI
   diretamente por trás de uma CDN (Cloudflare, Fastly), ele já cacheia
   corretamente — o ISR do Nuxt é uma segunda camada de cache, não a única.
 
-## Rodando localmente (Desenvolvimento)
+## (Desenvolvimento) Rodando localmente
+Backend:
 
-Backend
 ```bash
 cd backend
 python -m venv .venv && source .venv/bin/activate
@@ -109,7 +109,8 @@ pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 ```
 
-Frontend
+Frontend:
+
 ```bash
 cd frontend
 npm install
@@ -121,10 +122,8 @@ Configure a URL do backend via variável de ambiente, se necessário:
 NUXT_PUBLIC_API_BASE=http://localhost:8000 npm run dev
 ```
 
-## Deploy com CDN real (ISR de verdade) (Produção)
-
-O ISR só produz efeito de cache de borda de fato quando hospedado em uma
-plataforma com CDN integrada ao Nitro:
+## (Produção) Deploy com CDN real - ISR de verdade
+O ISR só produz efeito de cache de borda de fato quando hospedado em uma plataforma com CDN integrada ao Nitro:
 
 - **Vercel**: `nitro.preset = 'vercel'` → cada rota `isr` vira uma Edge/Serverless
   Function com cache automático na Vercel CDN.
