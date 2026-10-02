@@ -1,0 +1,6 @@
+-r ../requirements.txt
+pytest>=8.2
+pytest-asyncio>=0.23
+respx>=0.21          # mock de chamadas httpx à PokeAPI
+requests>=2.32        # cliente HTTP "de fora do processo" para os testes de sistema
+coverage>=7.5
